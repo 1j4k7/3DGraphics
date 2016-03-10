@@ -22,10 +22,10 @@ public class Main extends SimpleApplication {
     public void simpleInitApp() {
         flyCam.setMoveSpeed(10);
 
-        Spatial teapot = assetManager.loadModel("Models/Teapot.j3o");
+        Spatial teapot = assetManager.loadModel("Models/m4a1_s.obj");
         Material mat = new Material(assetManager, "Common/MatDefs/Misc/Unshaded.j3md");
         mat.setColor("Color", ColorRGBA.White);
-        mat.setTexture("ColorMap", assetManager.loadTexture("Textures/hair.jpg"));
+        mat.setTexture("ColorMap", assetManager.loadTexture("Textures/grass.png"));
         //mat.getAdditionalRenderState().setWireframe(true);
         teapot.setMaterial(mat);
         rootNode.attachChild(teapot);
