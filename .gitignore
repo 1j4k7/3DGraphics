@@ -1,0 +1,8 @@
+build/
+nbproject/
+*.dylib
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
